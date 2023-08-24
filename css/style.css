@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    color: aliceblue;
+    border: 0;
+    height: 32px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+}
+.btn-contact{
+    color: aliceblue;
+    border: 0;
+    height: 42px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* header and navigation */
+.header{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.nav-font{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: oblique;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* banner style */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    font-style: inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.banner-sub-title{
+    font-weight: 300;
+    font-size: 45px;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.banner-description{
+    color: #c1bfbf;
+    font-size: small;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about{
+    color: black;
+    margin-top: 130px;
+    background: #efeff4;
+    border-radius: 10px;
+    padding: 100px 150px;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.section-description{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* what i do section*/
+.what-i-do{
+    margin-top: 130px;
+    color: #000000;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/* contact styles */
+.contact{
+    margin-top: 130px;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+    background: #020a35;
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.contact a{
+    text-decoration: none;
+}
