@@ -231,7 +231,8 @@ main{
     margin-bottom: 10px;
 }
 
-@media (max-width:1080px){
+/* max for tab */
+@media (max-width:1080px){ 
     .pricing-table .grid {
         gap: 20px;
     }
