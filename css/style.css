@@ -111,6 +111,9 @@ main{
 
 /* Pricing section*/
 
+.pricing{
+    margin-top: 50px;
+}
 .skills-container{
     display: flex;
     gap: 24px;
